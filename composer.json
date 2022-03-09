@@ -1,0 +1,23 @@
+{
+  "name": "tridevsio/laravel-logstash-driver",
+  "description": "A driver to connect laravel log to logstash socket",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "TridevsIO\\LaravelLogstashDriver\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Tridevs",
+      "email": "abenomar@tridevs.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "monolog/monolog": ">=2.3.0",
+    "cocur/slugify": ">=v3.0"
+  }
+}
