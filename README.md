@@ -24,15 +24,3 @@ Add new log channel to `config/logging.php` under the section **channels**:
         'extra'   => [],
     ],
 ```
-
-### Optional Config
-
-Optionally add some extra data like the user id currently logged in
-
-```php
-'logstash' => [
-    'extra'   => [
-       'user_id' => auth()->user() ? auth()->user()->id : null, 
-    ],
-],
-```
