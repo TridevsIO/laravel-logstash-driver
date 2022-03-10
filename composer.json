@@ -17,7 +17,8 @@
   "require": {
     "php": ">=7.4",
     "ext-json": "*",
-    "monolog/monolog": ">=2.3.0",
+    "ext-sockets": "*",
+    "monolog/monolog": ">=2.0.0",
     "cocur/slugify": ">=v3.0"
   }
 }
