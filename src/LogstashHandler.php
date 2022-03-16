@@ -51,7 +51,7 @@ class LogstashHandler extends AbstractProcessingHandler
 
         $json = [
             "appName" => (new Slugify)->slugify($record["channel"]),
-            "errorCode" => $record["level"],
+            "code" => $record["level"],
             "severity" => $record["level_name"],
             "context" => $record["context"],
             "message" => $text
